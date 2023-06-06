@@ -1,0 +1,41 @@
+canvas {
+    margin: 15% 0 0 10%;
+    max-width: 100%;
+}
+
+.content {
+    height: auto;
+    background-color: rgba(50, 50, 50, 0.1);
+    padding: 5%;
+}
+
+.textbereich {
+    background-color: rgba(50, 50, 50, 0.1);
+    margin-bottom: 2%;
+}
+
+.textbereich p {
+    padding: 2%;
+    color: rgba(50, 50, 50, 0.8);
+}
+
+.timer {
+    background-color: rgba(50, 50, 50, 0.1);
+    display: flex;
+}
+
+.timer p {
+    color: rgba(50, 50, 50, 0.8);
+    margin: 2%;
+}
+
+.row {
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    canvas {
+        margin: 0 auto;
+        display: block;
+    }
+}
